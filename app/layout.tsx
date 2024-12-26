@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Carlos Barrantes",
-  description: "Portafolio web creado con Next.js",
+  title: "Carlos Barrantes | Portfolio",
+  description: "Full-stack developer portfolio showcasing my work and skills",
 };
 
 export default function RootLayout({
@@ -15,8 +15,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${inter.className} antialiased bg-black text-white`}>
+    <html lang="en" className="scroll-smooth">
+      <body
+        className={`${inter.className} antialiased bg-gray-900 text-gray-100`}
+      >
         {children}
       </body>
     </html>

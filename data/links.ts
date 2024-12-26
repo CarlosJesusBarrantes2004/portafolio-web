@@ -1,5 +1,9 @@
 export const links = [
   {
+    name: "Inicio",
+    link: "#hero",
+  },
+  {
     name: "Sobre mí",
     link: "#about-me",
   },

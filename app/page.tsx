@@ -8,16 +8,18 @@ import Skills from "@/components/Skills";
 
 export default function Home() {
   return (
-    <div className="min-h-screen container mx-auto flex flex-col">
+    <>
       <Navbar></Navbar>
-      <main className="pt-20">
-        <Hero></Hero>
-        <AboutMe></AboutMe>
-        <Projects></Projects>
-        <Skills></Skills>
-        <Contact></Contact>
+      <main className="min-h-screen container mx-auto px-6 lg:px-8">
+        <div className="pt-24 space-y-24 pb-16">
+          <Hero></Hero>
+          <AboutMe></AboutMe>
+          <Projects></Projects>
+          <Skills></Skills>
+          <Contact></Contact>
+        </div>
         <Footer></Footer>
       </main>
-    </div>
+    </>
   );
 }
