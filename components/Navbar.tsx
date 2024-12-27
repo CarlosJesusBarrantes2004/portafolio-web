@@ -1,4 +1,4 @@
-import { links } from "@/data/projects";
+import { links } from "@/data/links";
 import { Space_Grotesk } from "next/font/google";
 
 const spaceGrotesk = Space_Grotesk({ subsets: ["latin"] });
@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50">
       <nav className="backdrop-blur-md bg-gray-900/80 border-b border-gray-700">
-        <div className="container mx-auto px-6 py-4">
+        <div className="container mx-auto px-6 lg:px-8 py-4">
           <div className="flex items-center justify-between">
             <h1
               className={`${spaceGrotesk.className} font-bold text-2xl uppercase`}

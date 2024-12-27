@@ -1,4 +1,4 @@
-import { iconsMap } from "@/data/projects";
+import { iconsMap } from "@/data/icons";
 import Image from "next/image";
 
 const TechIcon = ({ name }: { name: string }) => {

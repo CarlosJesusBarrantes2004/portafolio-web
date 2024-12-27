@@ -8,7 +8,7 @@ const spaceGrotesk = Space_Grotesk({
 
 const AboutMe = () => {
   return (
-    <section id="about-me" className="min-h-screen py-16">
+    <section id="about-me" className="min-h-screen">
       <div className="grid lg:grid-cols-2 gap-12 items-center">
         <div className="space-y-6">
           <h2 className={`${spaceGrotesk.className} text-3xl font-bold mb-8`}>
