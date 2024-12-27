@@ -12,4 +12,6 @@ export const iconsMap = {
   typescript: "/icons/typescript.svg",
   prisma: "/icons/prisma.svg",
   postgresql: "/icons/postgresql.svg",
-};
+} as const;
+
+export type IconName = keyof typeof iconsMap;
